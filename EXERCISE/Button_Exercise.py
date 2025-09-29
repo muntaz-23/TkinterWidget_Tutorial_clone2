@@ -26,5 +26,5 @@ output_label = ttk.Label(master = window, textvariable = output_string)
 button_1.pack();
 button_2.pack();
 output_label.pack();
-# run the program to generate window with all packed elements for user interaction
+# run the program to generate window with all packed elements for user interaction/label
 window.mainloop()
