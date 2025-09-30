@@ -20,5 +20,3 @@ Subject_spinbox.pack()
 
 #run
 window.mainloop()
-
- 
