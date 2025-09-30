@@ -10,7 +10,7 @@ window.geometry('400x400')
 int_var = tk.IntVar()
 Number_spinbox = ttk.Spinbox(window, from_=0, to=100, increment=.01, textvariable = int_var, font = 'Calibri 24 bold')
 
-subject_list = ['Maths', 'English', 'Science', 'Computing', 'Latin', 'Arabic', 'Social']
+subject_list = ['Maths', 'English', 'Science', 'Computing', 'Latin', 'Arabic', 'Social Studies']
 string_var = tk.StringVar()
 Subject_spinbox = ttk.Spinbox(textvariable = string_var, font = 'Calibri 24 bold', values = subject_list)
 
