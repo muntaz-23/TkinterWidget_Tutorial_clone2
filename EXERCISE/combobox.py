@@ -6,7 +6,7 @@ window = tk.Tk()
 window.title('Tkinter Combobox Widget')
 window.geometry('400x400')
 
-# Label to show selected option
+# Label 
 label = tk.Label(window, text="Select an option from the combobox")
 label.pack(pady=10)
  
@@ -17,7 +17,7 @@ def on_select(event):
  
 # Function to be called before dropdown list is shown
 def update_combobox_values():
-   myCombobox['values'] = ['This Option', 'That Option', 'Another Option', 'Another Option']
+   myCombobox['values'] = ['This Option', 'That Option', 'Another Option']
 
 #combobox widget
 string_var = tk.StringVar()
