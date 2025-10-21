@@ -5,6 +5,6 @@ def multiplication_table_while(number):
         i +=1
 
   
-#input
+#input c
 num = int(input("Enter Number Here:"))
 multiplication_table_while(num)
