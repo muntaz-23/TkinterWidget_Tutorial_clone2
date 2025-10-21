@@ -7,22 +7,23 @@ window.title = 'List'
 window.geometry = ("400x400")
 root = tk.Tk()
 
-subjects = ["English", "Science", "Computing" ,"Arabic", "Social Studies", "Sports Science"]
-
+subjects = ["Maths", "English", "Science", "Computing" ,"Arabic", "Social Studies", "Sports Science"]
+subjects.pop(2)
+subjects.remove("Maths")
+print(subjects)
 
 variable_bool = True
 variable_int = 7
 subjects.append(variable_bool)
 subjects.append(variable_int)
 
-subjects.extend(["French", "Geography"])
-print(subjects[9])
-print(subjects[10])
+print(subjects[6])
+print(subjects[6])
 
-
-print(subjects[7])
-print(subjects[8])
 print(len(subjects))
+
+subjects.extend(["French", "Geography"])
+print(subjects[7])
 
 #Spinbox
 int_var = tk.IntVar()
